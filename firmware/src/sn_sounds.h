@@ -116,7 +116,7 @@ static const sns_sound SNS_SOUND[3][SN_SOUNDS] = {
         S("MALLET", SNS_FM6, 5, 2, 0),
         S("SYNC", SNS_TRIO, 2, 5, -6),
         SO("LEAD", SNS_TRIO, 0, SNS_SAWLEAD, SNS_KEEP, 10, SNS_KEEP, 5, -8),
-        S("BELL", SNS_FM6, 1, 2, -2),
+        S("HORNS", SNS_PHASE, 0, 2, -2),                  /* PHASE's BRASS: a horn line */
         S("PIANO", SNS_SAMPLE, 1, 4, -18),
         S("FLUTE", SNS_WHEEL, 3, 3, -7),                  /* SOFT FLUTE */
         SO("POP", SNS_ANALOG, 0, SNS_POP, SNS_KEEP, 4, SNS_MONO, 4, -3),

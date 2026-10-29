@@ -110,9 +110,9 @@ Four parts on Felucca's engines, sixteen sounds each:
 | --- | --- |
 | PADS | DRONE, CHOIR, STRINGS, PWM, TINE, BRASS, PIANO, GLASS, SOFT, ORGAN, SYNTH, BELL, HORNS, ORCH, MALLET, VOICES |
 | BASS | PUNCH, FM BASS, SLIDE (fretless), SYNTH, SQUARE, SUB, SLAP, OCTAVE, DX, FAT, SINE, GROWL, ORGAN, REESE, WOW, ACID |
-| KEYS | TINE, BRASS, MALLET, SYNC, LEAD, BELL, PIANO, FLUTE, POP, ANTHEM, ORCH, CHOIR, WHISTLE, PLUCK, ORGAN, SUPER |
+| KEYS | TINE, BRASS, MALLET, SYNC, LEAD, HORNS, PIANO, FLUTE, POP, ANTHEM, ORCH, CHOIR, WHISTLE, PLUCK, ORGAN, SUPER |
 
-FM is at home here: the TINE electric piano, the BRASS section, the MALLET wood bars and the BELL are FM6 patches,
+FM is at home here: the TINE electric piano, the BRASS section, the MALLET wood bars and the BELL (a pad, never a style's own) are FM6 patches,
 and so are Snapper's own DRONE (three detuned pairs swelling in slowly over a sub), GLASS (a soft pad with a bell's
 shine) and PUNCH (a hard plucked bass). Each style has four sounds a part: song 1 plays its own, every other song
 picks from the four.
