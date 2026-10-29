@@ -1,6 +1,6 @@
 # Snapper 0.1
 
-The first build, on `dev`.
+The first release.
 
 - Ten styles on two sides: LOUD (SLOWBURN, BIGROOM, BRASSHIT, STADIUM, MACHINE) and NIGHT (NIGHTDRIVE, LATENIGHT,
   UNDERTOW, TOMTOM, RHYTHMBOX); a song for every ALGORITHM number; style and song change on the bar line.
@@ -16,4 +16,4 @@ The first build, on `dev`.
 - The GATE palette, by default.
 - In the browser: the same firmware on Felucca's emulator.
 
-Not yet run on the FM-1. To go back: Felucca's or Tuna's installer, or the official V15.
+Runs on the FM-1. To go back: Felucca's or Tuna's installer, or the official V15.

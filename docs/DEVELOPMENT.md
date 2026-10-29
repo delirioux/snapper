@@ -4,8 +4,8 @@ The working notes behind Snapper: the agreements, how the work flows, why the co
 stands and what comes next. What Snapper is and how to play it is in the [README](../README.md) and the
 [manual](MANUAL.md).
 
-Status: 29 October 2026. Version 0.1 on `dev`: the groove engine, the sounds, the gated kit and the screens, passing
-the host tests; not yet run on an FM-1.
+Status: 29 October 2026. Version 0.1 built by CI, flashed and played on an FM-1 (the whole form, by ear);
+released on `main`.
 
 ## Agreements
 
@@ -106,11 +106,10 @@ the real number comes from the FM-1.
 
 ## Plan
 
-1. **On the FM-1.** It installs, boots and plays: the splash, the hush, the break-in on the downbeat, a drama, the
-   key up, the end and round again. Then the settings and sets surviving a power cycle, MIDI out, the CPU in the
-   busiest styles over a long session.
+1. **On the FM-1.** It installs, boots and plays the whole form. Still to check: the settings and sets surviving a
+   power cycle, MIDI out, the CPU in the busiest styles over a long session.
 2. **The sound by ear.** The gated snare and toms (the gate's length, the room's level under the hit), the drum
    machine against the drone, the DRONE, GLASS and PUNCH patches, the trims of the new sounds
    (`tests/sn_audition.sh`), the drama's held chord.
 3. **The feel.** BUILD's lengths, how fast the tension meter climbs, the fills, the voice steals in BRASSHIT.
-4. **Release 1.0** on `main`, with the installer, once it has run on the FM-1.
+4. **Version 1.0** once the checks above are done.

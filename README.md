@@ -11,8 +11,8 @@ and the song comes back a key higher. Ten styles on two sides, LOUD and NIGHT. Y
 break-in yourself, call the drama, and play the keys on top. Built on [Sill](https://github.com/delirioux/sill),
 Daurade, [Tuna](https://github.com/delirioux/tuna) and [Felucca](docs/FELUCCA.md).
 
-> **Version 0.1, in development.** Not yet tested on the FM-1: test builds come from `dev`. Built with no warranty.
-> Felucca's or Tuna's installer, or the official V15, takes the FM-1 back.
+> **Version 0.1.** Runs on the FM-1. Built with no warranty. Felucca's or Tuna's installer, or the official V15,
+> takes the FM-1 back.
 
 <p align="center">
 <img src="docs/screens/rise.png" alt="PLAY in the rise: the tension meter climbing to the break-in" width="200">
@@ -27,9 +27,9 @@ connect the FM-1 with a USB data cable and press Install (allow MIDI when the br
 package in the browser and writes it over USB-MIDI, as Felucca's installer does. Snapper keeps its settings and its
 eight sets in Felucca's first two song slots: back up anything you made in Felucca first.
 
-The test build from `dev` installs from [delirioux.github.io/snapper/dev](https://delirioux.github.io/snapper/dev/)
-and plays in the browser at [delirioux.github.io/snapper/dev/try](https://delirioux.github.io/snapper/dev/try/)
-(the same firmware, compiled to WebAssembly on Felucca's browser emulator). Every run also leaves its package in the
+Or **try it in the browser** first: [delirioux.github.io/snapper/try](https://delirioux.github.io/snapper/try/)
+runs the same firmware, compiled to WebAssembly on Felucca's browser emulator. The test build from `dev` installs from [delirioux.github.io/snapper/dev](https://delirioux.github.io/snapper/dev/)
+and plays at [delirioux.github.io/snapper/dev/try](https://delirioux.github.io/snapper/dev/try/). Every run also leaves its package in the
 artifact `snapper-firmware`. From a terminal: `python3 tools/fm1_install.py snapper-X.Y.fwsc`.
 
 ## The four knobs
