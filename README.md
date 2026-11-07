@@ -11,7 +11,7 @@ and the song comes back a key higher. Ten styles on two sides, LOUD and NIGHT. Y
 break-in yourself, call the drama, and play the keys on top. Built on [Sill](https://github.com/delirioux/sill),
 Daurade, [Tuna](https://github.com/delirioux/tuna) and [Felucca](docs/FELUCCA.md).
 
-> **Version 0.1.** Runs on the FM-1. Built with no warranty. Felucca's or Tuna's installer, or the official V15,
+> **Version 0.1.1.** Runs on the FM-1. Built with no warranty. Felucca's or Tuna's installer, or the official V15,
 > takes the FM-1 back.
 
 <p align="center">

@@ -1,6 +1,6 @@
 # Snapper manual
 
-Snapper 0.1. Every page, every card. Four parts play: **PADS** (the chords, and the drone), **BASS**, **KEYS** (the
+Snapper 0.1.1. Every page, every card. Four parts play: **PADS** (the chords, and the drone), **BASS**, **KEYS** (the
 riff, and whatever you play on the keys) and **DRUMS** (the big gated kit and the drum machine). Knob 1 to 4 turn the
 four cards on the screen. A page's button pressed again goes to its second page where it has one.
 

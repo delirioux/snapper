@@ -4,7 +4,7 @@ The working notes behind Snapper: the agreements, how the work flows, why the co
 stands and what comes next. What Snapper is and how to play it is in the [README](../README.md) and the
 [manual](MANUAL.md).
 
-Status: 29 October 2026. Version 0.1 built by CI, flashed and played on an FM-1 (the whole form, by ear);
+Status: 8 November 2026. Version 0.1.1 (one note for one key); 0.1 built by CI, flashed and played on an FM-1 (the whole form, by ear);
 released on `main`.
 
 ## Agreements
