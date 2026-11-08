@@ -1,6 +1,6 @@
 # Snapper licensing
 
-Snapper is a fork of [Sill](https://github.com/delirioux/sill), Daurade, Flyfish and [Tuna](https://github.com/delirioux/tuna), themselves forks of
+Snapper is a fork of [Sill](https://github.com/delirioux/sill), [Daurade](https://github.com/delirioux/daurade), [Flyfish](https://github.com/delirioux/flyfish) and [Tuna](https://github.com/delirioux/tuna), themselves forks of
 [Felucca](https://github.com/hugelton/Felucca): GPL-3.0-only, as they are. Its own files (`firmware/src/sn_*`,
 `tests/sn_*`, `tools/sn_*`, `tools/draw_logo.py`, `web/sn_*`, `web/emu/sn_*`, `docs/`, `assets/logo.*`) are
 Copyright (C) 2026 delirioux, GPL-3.0-only; the maths (`tuna_libm.c`, `tuna_sys.h`) are Tuna's. The piano in `assets/samples-cc0/PIANO/` (VCSL's Kawai grand, CC0 1.0, made bright by

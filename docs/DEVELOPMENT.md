@@ -12,8 +12,8 @@ released on `main`.
 | What | Agreed |
 | --- | --- |
 | Home | GitHub, `github.com/delirioux/snapper`, branch `main`; unfinished work on `dev` until it has run on the FM-1. |
-| Upstream | A fork of [Sill](https://github.com/delirioux/sill), Daurade, Flyfish and [Tuna](https://github.com/delirioux/tuna) (themselves forks of [Felucca](https://github.com/hugelton/Felucca)). Never push to them or to Felucca. Felucca's five engines are a submodule, `firmware/engines`. |
-| Name | Ocean animals, as Tuna, Flyfish, Makohai, Daurade and Sill: the snapper. The logo: a red snapper with a spiny dorsal and sharp teeth on a ring of audio bars that ring out and stop dead, echo rings cut off by a straight line, a box with two 3D knobs, an 80s wordmark sliced by gate lines, snapper red and steel blue. |
+| Upstream | A fork of [Sill](https://github.com/delirioux/sill), [Daurade](https://github.com/delirioux/daurade), [Flyfish](https://github.com/delirioux/flyfish) and [Tuna](https://github.com/delirioux/tuna) (themselves forks of [Felucca](https://github.com/hugelton/Felucca)). Never push to them or to Felucca. Felucca's five engines are a submodule, `firmware/engines`. |
+| Name | Ocean animals, as Tuna, Flyfish, [Makohai](https://github.com/delirioux/makohai), Daurade and Sill: the snapper. The logo: a red snapper with a spiny dorsal and sharp teeth on a ring of audio bars that ring out and stop dead, echo rings cut off by a straight line, a box with two 3D knobs, an 80s wordmark sliced by gate lines, snapper red and steel blue. |
 | What it is | Generative 80s drum-heavy pop built on tension: a drone and a drum machine that build, the big gated drums breaking in on the downbeat, a drama and a key change. Its sounds and styles are its own; the repository names no artist, record or film as a model, in code, docs or history. |
 | Description | "Snappy generative 80s drum-heavy pop for the FM-1, caught in 1985." |
 | Language | English throughout: code, comments, commits, docs. |

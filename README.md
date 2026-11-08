@@ -11,9 +11,9 @@ around tension: a dark drone and a bare drum machine, building and building, unt
 the downbeat with the whole band. Then a drama: the band falls away to one held chord while a tom roll swells in,
 and the song comes back a key higher. Ten styles on two sides, LOUD and NIGHT. You decide how long it builds, fire the
 break-in yourself, call the drama, and play the keys on top. Built on [Sill](https://github.com/delirioux/sill),
-Daurade, [Tuna](https://github.com/delirioux/tuna) and [Felucca](docs/FELUCCA.md).
+[Daurade](https://github.com/delirioux/daurade), [Tuna](https://github.com/delirioux/tuna) and [Felucca](docs/FELUCCA.md).
 
-> **Version 0.1.1.** Runs on the FM-1. Built with no warranty. Felucca's or Tuna's installer, or the official V15,
+> **Version 0.1.1.** Runs on the FM-1. Built with no warranty. [Felucca](https://github.com/hugelton/Felucca)'s or Tuna's installer, or the official V15,
 > takes the FM-1 back.
 
 <p align="center">
@@ -138,6 +138,6 @@ renders a song through Felucca's engines to a WAV; `sh tests/sn_audition.sh` mea
 
 ## Credits and licence
 
-GPL-3.0-only. Snapper by delirioux and Claude; a fork of Sill, Daurade, Flyfish and Tuna (delirioux), forks of
+GPL-3.0-only. Snapper by delirioux and Claude; a fork of Sill, Daurade, [Flyfish](https://github.com/delirioux/flyfish) and Tuna (delirioux), forks of
 Felucca by Leo Kuroshita, Hügelton Instruments; the web installer is Felucca's. The drum samples are CC0. See
 [CREDITS.md](CREDITS.md) and [LICENSING.md](LICENSING.md).
