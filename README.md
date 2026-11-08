@@ -1,3 +1,5 @@
+**Patched for FM-1 units with the new chipset.**
+
 # Snapper
 
 <p align="center"><img src="docs/snapper-logo.png" alt="Snapper" width="256"></p>
