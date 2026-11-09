@@ -16,7 +16,7 @@ second page where it has one. HOME takes you back to PLAY. The keys only ever pl
 | The big drums in | **REC** in the hush or rise: the tom fill and the break-in on the next downbeat; held, the tension holds until you let go |
 | A fill | **REC** in the full band: a tom fill into a crash |
 | Drama | **SEQ** from the full band: one held chord, a tom roll, the band back a key up |
-| Play the keys part | **Keys**: snapped to the scale, anything you press is in key. **OCT-** / **OCT+**: their octave |
+| Play the keys part | **Keys**: as you press them; hold **HOME**, KNOB 3: **SNAP** on, snapped to the scale. **OCT-** / **OCT+**: their octave |
 
 ## The four knobs (PLAY)
 
@@ -51,6 +51,6 @@ second page where it has one. HOME takes you back to PLAY. The keys only ever pl
 | What | How |
 | --- | --- |
 | Sets | **SAVE**: eight sets. **SET** picks, **LOAD** / **STORE** turned right, **CLEAR** turned right three times |
-| Colour | Hold **HOME**: MENU, **COLOR**, **LOOK** |
+| Colour | Hold **HOME**: MENU, **COLOR**, **LOOK**, **SNAP** (the keys onto the scale) |
 | MIDI out | PADS on channel 1, BASS 2, KEYS 3, drums 10 |
 | Saving | Automatic, while stopped |

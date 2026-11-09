@@ -299,13 +299,20 @@ int main(void)
         fresh(SN_ST_BIGROOM);
         sn_play(&g, true);
         run_bars(1);
-        int bad = 0;
+        int bad = 0, asis = 0;
+        for (int n = 53; n <= 79; ++n) {                /* (SNAP OFF, the default: as pressed) */
+            sn_key(&g, n - 53, n, true);
+            asis += g.key_note[n - 53] == n;
+            sn_key(&g, n - 53, n, false);
+        }
+        CHECK(!g.s.keysnap && asis == 27, "SNAP OFF: the keys as pressed (%d of 27)", asis);
+        g.s.keysnap = 1;
         for (int n = 53; n <= 79; ++n) {
             sn_key(&g, n - 53, n, true);
             bad += sn_snap(&g.s, g.key_note[n - 53]) != g.key_note[n - 53];
             sn_key(&g, n - 53, n, false);
         }
-        CHECK(bad == 0, "the keys in the scale (%d off)", bad);
+        CHECK(bad == 0, "SNAP ON: the keys in the scale (%d off)", bad);
     }
     /* a bad record: every field back in range */
     {

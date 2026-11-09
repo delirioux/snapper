@@ -1,6 +1,6 @@
 # Snapper manual
 
-Snapper 0.1.1. Every page, every card. Four parts play: **PADS** (the chords, and the drone), **BASS**, **KEYS** (the
+Snapper 0.1.2. Every page, every card. Four parts play: **PADS** (the chords, and the drone), **BASS**, **KEYS** (the
 riff, and whatever you play on the keys) and **DRUMS** (the big gated kit and the drum machine). Knob 1 to 4 turn the
 four cards on the screen. A page's button pressed again goes to its second page where it has one.
 
@@ -30,7 +30,8 @@ dashes are the way through the section.
 in for the last two of its four bars, a whole bar of toms breaks back in, and the full band returns KEY UP higher.
 Elsewhere SEQ says so and waits.
 
-**The keys** play KEYS, live, snapped to the scale (and to the key up): any key you press is in key. While you hold
+**The keys** play KEYS, live, as you press them: an off note is yours to play. MENU's **SNAP** (hold
+HOME, KNOB 3) snaps them to the scale (and to the key up) instead, so any key you press is in key. While you hold
 one, the riff makes way. OCT- and OCT+ move the keys' octave. The keys' LEDs glow on the notes of the chord playing.
 The keys never change a setting.
 
@@ -73,7 +74,7 @@ With FORM off the full band plays on and on; REC fills, SEQ still brings a drama
 | **FORM** (ENV) | **FORM** on: the song has its form; off: the full band on and on. **FULL** 8 or 16 bars. **DRAMAS** 1 or 2 a song (with DRAMA AUTO). **KEY UP** what each drama adds: OFF, +1 or +2 semitones. |
 | **KEYS** (ENV again, LFO) | **SPEED** SLOW (long notes), MID (eighths) or FAST (the syncopated sixteenths of a horn line). **RANGE** 1 or 2 octaves. **GATE** how long each note holds. **REPEAT** the riff's phrase: 1, 2 or 4 bars, a motif and its answer. The panel draws the riff, the note playing lit (NIGHTDRIVE: its arpeggio). |
 | **SETS** (SAVE) | Eight sets: the whole song, style and all. **SET** picks one, **LOAD** and **STORE** turned right do it, **CLEAR** turned right three times empties it. |
-| **MENU** (hold HOME) | **COLOR** the palette: GATE by default, and Felucca's. **LOOK** FLAT or LINE. |
+| **MENU** (hold HOME) | **COLOR** the palette: GATE by default, and Felucca's. **LOOK** FLAT or LINE. **SNAP** the keys: OFF, as you press them (the default), or ON, onto the scale. |
 
 A style sets its tempo, build, drama, energy, room, sounds, key, chord loop, groove, drums, space and riff; MIX,
 FORM and MENU stay yours.

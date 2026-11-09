@@ -15,7 +15,7 @@ and the song comes back a key higher. Ten styles on two sides, LOUD and NIGHT. Y
 break-in yourself, call the drama, and play the keys on top. Built on [Sill](https://github.com/delirioux/sill),
 [Daurade](https://github.com/delirioux/daurade), [Tuna](https://github.com/delirioux/tuna) and [Felucca](docs/FELUCCA.md).
 
-> **Version 0.1.1.** Runs on the FM-1. Built with no warranty. [Felucca](https://github.com/hugelton/Felucca)'s or Tuna's installer, or the official V15,
+> **Version 0.1.2.** Runs on the FM-1. Built with no warranty. [Felucca](https://github.com/hugelton/Felucca)'s or Tuna's installer, or the official V15,
 > takes the FM-1 back.
 
 <p align="center">
@@ -90,9 +90,9 @@ bass line, riff and sounds, the same each time you come back to its number.
 | PLAY | start (with the hush) / stop |
 | REC | BREAK-IN. In the hush or the rise: tap it and the tom fill starts at the bar's half (the next bar's, when the half has passed), the full band on the downbeat after; hold it and the tension holds until you let go. In the full band: a tom fill into a crash. In a drama: back in on the next bar |
 | SEQ | DRAMA: from the full band, on the next bar; it comes back a KEY UP higher |
-| keys | KEYS, live, snapped to the scale: whatever you press is in key. The keys only ever play music |
+| keys | KEYS, live, as you press them; MENU's SNAP on: snapped to the scale. The keys only ever play music |
 | OCT- / OCT+ | the keys' octave |
-| HOME | PLAY; hold it: MENU (COLOR, LOOK) |
+| HOME | PLAY; hold it: MENU (COLOR, LOOK, SNAP) |
 | FX | SOUND (the four parts' sounds), again: TONE (RESO DRIVE DETUNE CRUSH) |
 | LFO | KEYS (SPEED RANGE GATE REPEAT: the riff) |
 | SCL | KEY (KEY SCALE CHORDS BARS) |

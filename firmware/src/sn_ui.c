@@ -138,7 +138,7 @@ static const snu_cdef SNU_CARDS[SNU_PAGES][4] = {
                     {"GATE", SS_(gate), SC_NUM, 10, 100, 5, 0, 0}, C_VALS("REPEAT", repeat, SV_REPEAT)},
     [SNU_PG_SETS] = {{"SET", 0, SC_SETSEL, 0, SN_SETS - 1, 1, 0, 0}, {"LOAD", 0, SC_LOAD, 0, 0, 1, 0, 0},
                     {"STORE", 0, SC_STORE, 0, 0, 1, 0, 0}, {"CLEAR", 0, SC_CLEAR, 0, 0, 1, 0, 0}},
-    [SNU_PG_MENU] = {{"COLOR", SS_(palette), SC_PAL, 0, 10, 1, 0, 0}, C_LIST("LOOK", look, SN_LOOK), C_OFF, C_OFF},
+    [SNU_PG_MENU] = {{"COLOR", SS_(palette), SC_PAL, 0, 10, 1, 0, 0}, C_LIST("LOOK", look, SN_LOOK), C_LIST("SNAP", keysnap, SN_ONOFF), C_OFF},
 };
 static const char *const SNU_PAGE_NAMES[SNU_PAGES] = {"PLAY", "SOUND", "TONE", "KEY", "GROOVE", "DRUMS", "MIX", "SPACE",
                                                     "FORM", "KEYS", "SETS", "MENU"};
@@ -859,6 +859,7 @@ static void snu_load_set(sn_ui *u, int i)
     sn_settings s = u->sets[i];
     s.palette = g->s.palette;
     s.look = g->s.look;
+    s.keysnap = g->s.keysnap;
     sn_settings_fix(&s);
     sn_all_off(g);
     g->s = s;

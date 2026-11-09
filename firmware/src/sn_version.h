@@ -2,5 +2,5 @@
 /* Snapper's version: the splash, MENU, the package (tools/build.py --release, the workflow) */
 #ifndef SN_VERSION_H
 #define SN_VERSION_H
-#define SN_VERSION "0.1.1"
+#define SN_VERSION "0.1.2"
 #endif

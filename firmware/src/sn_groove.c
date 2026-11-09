@@ -228,6 +228,7 @@ void sn_defaults(sn_settings *s)
     s->keyup = 2;
     s->palette = 10;                               /* GATE (ui_palettes.h UI_GATE_INDEX) */
     s->look = 0;
+    s->keysnap = 0;                                /* (the keys as pressed) */
 }
 
 void sn_settings_fix(sn_settings *s)
@@ -272,6 +273,7 @@ void sn_settings_fix(sn_settings *s)
     s->repeat = (uint8_t)(s->repeat >= 4 ? 4 : s->repeat >= 2 ? 2 : 1);
     s->bpm = (uint8_t)clampi(s->bpm ? s->bpm : 96, 60, 200);
     s->look = (uint8_t)(s->look ? 1 : 0);
+    s->keysnap = (uint8_t)(s->keysnap == 1);       /* (an old record's padding: OFF) */
     s->lift = (uint8_t)clampi(s->lift ? s->lift : 85, 30, 100);
     if (s->song > 999)
         s->song = 0;
@@ -811,6 +813,7 @@ static void bar_line(sn_groove *g)
         g->s.keyup = old.keyup;
         g->s.palette = old.palette;
         g->s.look = old.look;
+        g->s.keysnap = old.keysnap;
         if (keep_song >= 0) {
             g->s.song = (uint16_t)keep_song;
             sn_song_sounds(&g->s);
@@ -1370,7 +1373,7 @@ void sn_key(sn_groove *g, int k, int note_in, bool down)
     if (k < 0 || k >= 27)
         return;
     if (down) {
-        int n = sn_snap(&g->s, note_in) + g->tr;   /* in the key, the key up in it */
+        int n = g->s.keysnap ? sn_snap(&g->s, note_in) + g->tr : note_in;   /* (SNAP on: in the key, the key up in it; off: as pressed) */
         if (g->key_note[k] >= 0)
             emit(g, 0, SN_KEYS, g->key_note[k], 0);
         if (!g->keys)                              /* the riff makes way */
